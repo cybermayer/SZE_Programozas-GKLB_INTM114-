@@ -160,8 +160,6 @@ int main(){
     felszabadit(horgony);
     cout << "------------------------------------------" << endl;
 
-    //3.. feladat
-    cout << "3. Feladat" << endl;
     cout << "------------------------------------------" << endl;
     int sz[] = {29, -3, 5, 998, 2, -56, 146, -1};
     elem* horgony = letrehoz(sz);
