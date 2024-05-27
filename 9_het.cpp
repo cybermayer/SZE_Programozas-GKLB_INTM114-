@@ -81,13 +81,11 @@ using namespace std;
 
 void printPascal(const int* const* pascal, int size){
 
-    for(int i=0; i<size; i++){
-        //cout << string((size-1-i), '\t');        
+    for(int i=0; i<size; i++){        
         for(int j=0; j<=i; j++){
             cout << pascal[i][j] << '\t';
         }
         cout << endl;
-        //cout << string((size-2-i), '\t') << endl;
     }
 
 
