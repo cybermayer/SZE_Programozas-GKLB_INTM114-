@@ -156,19 +156,6 @@ char** createTR() {
 }
 
 int main(){
-
-    int size;
-    cout << "Pascal-haromszog szamito program. Adja meg a sorok szamat! ";
-    cin >> size;
-    int** pascal = generatePascal(size);
-
-    printPascal(pascal, size);
-    freePascal(pascal, size);
-
-    return 0;
-}
-
-int main(){
     
     //1. feladat
     cout << "1. Feladat" << endl;
