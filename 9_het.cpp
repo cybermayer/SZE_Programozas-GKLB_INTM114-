@@ -73,11 +73,6 @@ int** generateUpperTriangle(int size){
     return triangle;
 }
 
-#include <iostream>
-
-using namespace std;
-
-
 
 void printPascal(const int* const* pascal, int size){
 
