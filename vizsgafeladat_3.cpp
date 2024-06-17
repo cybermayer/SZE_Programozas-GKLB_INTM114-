@@ -1,3 +1,11 @@
+/*
+
+Definiálja azt a double* atlagok(const double* tomb, int n) függvényt, 
+ami a paraméterként kapott n elemű tomb minden 2-2 szomszédos elemének meghatározza a számtani közepét (átlagát), 
+és az ezekből álló, dinamikusan lefoglalt területen elhelyezett tömb címét adja vissza!
+
+*/
+
 #include<iostream>
 
 using namespace std;
@@ -16,12 +24,10 @@ double* atlagok(const double* tomb, int n){
 
 void print(const double* tomb, int n){
 
-    if (n<=1)
-    {
+    if (n<=1){
         cout << "OK";
     }
-    for(int i =0; i<=n; i++)
-    {
+    for(int i =0; i<=n; i++){
         cout << tomb[i] << " ";
     }
 
