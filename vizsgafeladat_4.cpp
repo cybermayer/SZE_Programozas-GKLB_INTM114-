@@ -1,3 +1,22 @@
+/*
+
+Definiálja azt az ingredientItem* getAllIngredients(ingredientItem* foods[], int n) függvényt, 
+mely a foods paraméter tömbben megkapja n darab étel hozzávalóit. Minden étel hozzávalóit, 
+és az azokból szükséges mennyiséget egy-egy láncolt lista tartalmazza. 
+A láncolt lista egy elemét reprezentáló struktúrát már előzetesen definiáltuk, így:
+
+struct ingredientItem {
+    std::string ingredient;
+    double quantity;
+    ingredientItem* next;
+};
+
+Ebben ingredient egy hozzávaló neve, quantity pedig annak mennyisége.
+A függvény visszatérési értéke olyan, ingredientItem elemekből álló lista legyen, 
+amiből kiderül, hogy milyen hozzávalóból mennyire lesz szükség valamennyi étel elkészítéséhez!
+
+*/
+
 #include<iostream>
 #include<string>
 
