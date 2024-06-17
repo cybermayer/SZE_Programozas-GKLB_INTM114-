@@ -1,3 +1,12 @@
+/*
+
+Adott két kör a síkon, c1 és c2. c1 középpontjának koordinátái x1 és y1, sugara r1. 
+c2 középpontjának koordinátái x2 és y2, sugara r2. 
+Definiálja azt a bool isC1inC2(double x1, double y1, double r1, double x2, double y2, double r2) függvényt,
+amely logikai igaz értékkel tér vissza, ha c1 benne van c2 belsejében, vagy érintik egymást, különben hamissal!
+
+*/
+
 #include<iostream>
 #include<cmath>
 
