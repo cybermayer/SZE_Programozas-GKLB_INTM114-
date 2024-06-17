@@ -1,3 +1,12 @@
+/*
+
+Készítse el a void DMY2MonthSpelledOut(const std::string& d) függvényt, 
+ami paraméterként egy dd/mm/yyyyy (d = nap, m = hónap, y = év) formátumú dátum karakterláncot fogad, 
+és kinyomtatja a dátumot dd mmmm yyyy formátumban, azaz a hónap nem numerikusan, hanem szövegesen jelenik meg, angolul.
+
+*/
+
+
 #include <iostream>
 #include <string>
 #include <array>
