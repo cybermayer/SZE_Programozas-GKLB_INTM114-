@@ -1,3 +1,20 @@
+/*
+    
+Definiálja azt az elem* beszur(elem* horgony, std::string szo) függvényt, 
+ami úgy szúrja be a horgony címen kezdődő, elem struktúrákból álló láncolt listába a szo-t, 
+hogy amennyiben a listában tárolt szavak eddig abc-sorrendben álltak, 
+akkor ez a rendezettség a beszúrás után is megmarad! Az elem struktúra már definiált a következőképpen:
+
+struct elem {
+	std::string szo;
+	elem* kov;
+};
+
+A függvény visszatérési értéke a módosított lista kezdőcíme.
+
+*/
+
+
 #include <iostream>
 #include <string>
 
