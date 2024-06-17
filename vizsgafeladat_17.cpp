@@ -1,11 +1,15 @@
 /*
 
-Definiálja azt a factor* factorization(int n) függvényt, mely elkészíti az n természetes szám prímtényezős felbontását! A prímeket és azok kitevőit adja vissza a factor típusú elemekből álló láncolt listában! A struktúra már előzetesen definiált a következőképpen:
+Definiálja azt a factor* factorization(int n) függvényt, mely elkészíti az n természetes szám prímtényezős felbontását! 
+A prímeket és azok kitevőit adja vissza a factor típusú elemekből álló láncolt listában! 
+A struktúra már előzetesen definiált a következőképpen:
+
 struct factor {
     int prime;
     int exponent;
     factor* next;
 };
+
 Ebben prime egy prímtényező, exponent pedig annak kitevője, azaz a prím ennyiszer szerepel a felbontásban.
 
 */
