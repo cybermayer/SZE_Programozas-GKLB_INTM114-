@@ -1,3 +1,18 @@
+/*
+
+Adott egy szövegfájl, mely soronként tartalmazza egy hallgató keresztnevét, 
+majd a vizsgákon elért eredményeit, szóközökkel elválasztva. Például az exam1.txt tartalma a következő:
+
+Mary 1 4
+Joe 5
+John 1 1 2
+Jenny 3
+
+Definiálja a void examCount(const std::string& fileName) függvényt, 
+ami külön sorokban kiírja a hallgatók nevét és vizsgáik számát!
+
+*/
+
 #include<iostream>
 #include<fstream>
 #include<sstream>
