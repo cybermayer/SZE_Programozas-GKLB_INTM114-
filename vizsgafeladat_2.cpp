@@ -1,3 +1,13 @@
+/*
+
+Definiálja azt a void charCounter(std::string str, int n) függvényt, 
+ami abc-sorrendben a szabvány kimenetre nyomtatja azokat a betűket szóközzel elválasztva, 
+melyek pontosan n alkalommal fordultak elő az str karakterláncban! 
+A kis- és nagybetűket ne különböztesse meg egymástól! Feltételezheti, 
+hogy az str karakterlánc csak az angol abc betűit tartalmazza.
+
+*/
+
 #include<iostream> 
 #include<string>
 
