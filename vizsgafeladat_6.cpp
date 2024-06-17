@@ -1,3 +1,12 @@
+/*
+
+Készítse el azt a std::string consonants(const std::string& word) függvényt, 
+ami a paraméterként kapott word karakterláncnak csak a mássalhangzóit adja vissza. 
+A visszatérési értékben és az eredeti karakterláncban ugyanolyan sorrendben kell lenniük a mássalhangzóknak, 
+továbbá meg kell őrizni a kis- és nagybetűk közötti különbséget is.
+
+*/
+    
 #include <iostream>
 #include <string>
 
