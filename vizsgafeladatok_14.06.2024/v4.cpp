@@ -66,7 +66,7 @@ char** createChrArray(string& str){                                             
             words.push_back(word);
         }
 
-    #pragma endregion<dataread>
+    #pragma endregion<data_reader>
 
     #pragma region<array_creater>                                                               //Create and fill array
 
