@@ -972,7 +972,7 @@ FUNCTION LIBRARY FOR C++ CODING AT SZECHENYI ISTVAN UNIVERSITY
         }
     }
 
-    double* avergeAdjacentElements(const double* array, int n){             //Averaging adjacent elements and create new aray for them          
+    double* avergeAdjacentElements(const double* array, int n){             //Averaging adjacent elements and create new array for them          
 
         if(array !=nullptr && n>1) {
             double* new_array = new double[n-1];
@@ -1048,7 +1048,7 @@ FUNCTION LIBRARY FOR C++ CODING AT SZECHENYI ISTVAN UNIVERSITY
         return avgmtx;
     }
 
-    void printList(double* list, int size){                                 //Prints the elements of an n-size static aray
+    void printList(double* list, int size){                                 //Prints the elements of an n-size static array
         for (int i=0; i<size; i++){ 
             cout << list[i] << " ";
         }
@@ -1099,7 +1099,7 @@ FUNCTION LIBRARY FOR C++ CODING AT SZECHENYI ISTVAN UNIVERSITY
     file.close();
     }
 
-    string tri_result(string fbe){                                          //Read lines from files feed them into ordered array, return looser, print winner
+    string tri_result(string fbe){                                          //Reads lines from files feed them into ordered array, return looser, print winner
 
         auto freeMem=[](triathlete** tris, int size)->void{
 
@@ -1171,7 +1171,7 @@ FUNCTION LIBRARY FOR C++ CODING AT SZECHENYI ISTVAN UNIVERSITY
         #pragma endregion
                                                         
         if(!file.is_open()){                                                        //ERROR HANDLING
-            cout << "Unable to open the file!" << endl;
+            cout << "Unable to open the file!" << endl;                                //cerr should be used, but that cannot be taken by moodle-compiler
             return 0;
         } 
 
@@ -1247,12 +1247,12 @@ FUNCTION LIBRARY FOR C++ CODING AT SZECHENYI ISTVAN UNIVERSITY
     #pragma region                                                                          //Error handling                                                                  
 
         if(!in_file.is_open()){                                                                 //open error
-                cout << "Sikertelen file-nyitás!" << endl;
+                cout << "Sikertelen file-nyitás!" << endl;                                          //cerr should be used, but that cannot be taken by moodle-complier
                 return nullptr;
             }
 
         if(!out_file.is_open()){                                                                //saving error
-                cout << "Háttértár hiba!" << endl;
+                cout << "Háttértár hiba!" << endl;                                                 //cerr should be used, but that cannot be taken by moodle-complier
                 return nullptr;
             }
 
