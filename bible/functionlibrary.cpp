@@ -1335,13 +1335,7 @@ FUNCTION LIBRARY FOR C++ CODING
 #pragma endregion<files>
 
 int main(){
-
-    string str = "szlovak";
-
-    capitalizeFirstLetter(str);
-
-    std::cout << str;
-
+    
     return 0;
 }
 
