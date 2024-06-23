@@ -116,7 +116,7 @@ FUNCTION LIBRARY FOR C++ CODING AT SZECHENYI ISTVAN UNIVERSITY
         return a*b*sin(rad);
     }
 
-    double circumferenceOfParalelogram(double a, double b) {                //Calculates circumference of a paralelogram
+    double perimeterOfParalelogram(double a, double b) {                //Calculates perimeter of a paralelogram
 
         return (2*a+2*b);
     }
