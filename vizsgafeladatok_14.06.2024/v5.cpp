@@ -55,7 +55,7 @@ void deleteLL(dataStruct* head){                                                
     }
 }
 
-dataStruct* deleteOnCondition(dataStruct* head, int min){                                   //Delte elements holding smaller value than min
+dataStruct* deleteOnCondition(dataStruct* head, int min){                                   //Delete elements holding smaller value than min
 
     dataStruct* to_delete;
     dataStruct* act = head;
